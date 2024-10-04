@@ -6,7 +6,7 @@ import pybind11
 ext_modules = [
     Extension(
         "euler_solver",
-        ["euler_solver.cpp"],
+        ["app/euler_solver.cpp"],
         include_dirs=[pybind11.get_include()],
         language="c++"
     )
